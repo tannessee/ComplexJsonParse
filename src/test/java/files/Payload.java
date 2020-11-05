@@ -71,7 +71,7 @@ public class Payload {
 				"}";
 	}
 	
-	public static String addBook(String isbn, String aisle) {
+	public static String addBook(String isbn, String aisle) { //isbn = id+name
 		return("{\r\n" + 
 				"\r\n" + 
 				"\"name\":\"Learn Appium Automation with Java\",\r\n" + 
